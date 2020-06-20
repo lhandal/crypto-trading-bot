@@ -1,0 +1,1520 @@
+2020-06-20 00:38:55,532 - freqtrade.loggers - INFO - Verbosity set to 0
+2020-06-20 00:38:55,533 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2020-06-20 00:38:55,535 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2020-06-20 00:38:55,536 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2020-06-20 00:38:55,537 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2020-06-20 00:38:55,538 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 15 ...
+2020-06-20 00:38:55,547 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2020-06-20 00:38:55,549 - freqtrade.configuration.directory_operations - INFO - Created data directory: None
+2020-06-20 00:38:55,550 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2020-06-20 00:38:55,551 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2020-06-20 00:38:55,552 - freqtrade.configuration.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2020-06-20 00:38:55,553 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2020-06-20 00:38:55,554 - freqtrade.freqtradebot - INFO - Starting freqtrade 2020.5
+2020-06-20 00:38:55,592 - freqtrade.commands.trade_commands - ERROR - Impossible to load Strategy 'BB_RSI'. This class does not exist or contains Python code errors.
+2020-06-20 00:38:55,593 - freqtrade.commands.trade_commands - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 19, in start_trading
+    worker = Worker(args)
+  File "/freqtrade/freqtrade/worker.py", line 34, in __init__
+    self._init(False)
+  File "/freqtrade/freqtrade/worker.py", line 51, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+  File "/freqtrade/freqtrade/freqtradebot.py", line 63, in __init__
+    self.strategy: IStrategy = StrategyResolver.load_strategy(self.config)
+  File "/freqtrade/freqtrade/resolvers/strategy_resolver.py", line 45, in load_strategy
+    strategy: IStrategy = StrategyResolver._load_strategy(
+  File "/freqtrade/freqtrade/resolvers/strategy_resolver.py", line 177, in _load_strategy
+    raise OperationalException(
+freqtrade.exceptions.OperationalException: Impossible to load Strategy 'BB_RSI'. This class does not exist or contains Python code errors.
+2020-06-20 00:39:48,518 - freqtrade.loggers - INFO - Verbosity set to 0
+2020-06-20 00:39:48,520 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2020-06-20 00:39:48,521 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2020-06-20 00:39:48,522 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2020-06-20 00:39:48,523 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2020-06-20 00:39:48,524 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 15 ...
+2020-06-20 00:39:48,531 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2020-06-20 00:39:48,533 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2020-06-20 00:39:48,534 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2020-06-20 00:39:48,534 - freqtrade.configuration.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2020-06-20 00:39:48,535 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2020-06-20 00:39:48,536 - freqtrade.freqtradebot - INFO - Starting freqtrade 2020.5
+2020-06-20 00:39:48,560 - freqtrade.commands.trade_commands - ERROR - Impossible to load Strategy 'BB_RSI'. This class does not exist or contains Python code errors.
+2020-06-20 00:39:48,561 - freqtrade.commands.trade_commands - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 19, in start_trading
+    worker = Worker(args)
+  File "/freqtrade/freqtrade/worker.py", line 34, in __init__
+    self._init(False)
+  File "/freqtrade/freqtrade/worker.py", line 51, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+  File "/freqtrade/freqtrade/freqtradebot.py", line 63, in __init__
+    self.strategy: IStrategy = StrategyResolver.load_strategy(self.config)
+  File "/freqtrade/freqtrade/resolvers/strategy_resolver.py", line 45, in load_strategy
+    strategy: IStrategy = StrategyResolver._load_strategy(
+  File "/freqtrade/freqtrade/resolvers/strategy_resolver.py", line 177, in _load_strategy
+    raise OperationalException(
+freqtrade.exceptions.OperationalException: Impossible to load Strategy 'BB_RSI'. This class does not exist or contains Python code errors.
+2020-06-20 00:40:50,173 - freqtrade.loggers - INFO - Verbosity set to 0
+2020-06-20 00:40:50,202 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2020-06-20 00:40:50,203 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2020-06-20 00:40:50,204 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2020-06-20 00:40:50,205 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2020-06-20 00:40:50,207 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 15 ...
+2020-06-20 00:40:50,215 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2020-06-20 00:40:50,217 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2020-06-20 00:40:50,218 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2020-06-20 00:40:50,219 - freqtrade.configuration.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2020-06-20 00:40:50,220 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2020-06-20 00:40:50,223 - freqtrade.freqtradebot - INFO - Starting freqtrade 2020.5
+2020-06-20 00:40:50,257 - freqtrade.commands.trade_commands - ERROR - Impossible to load Strategy 'BB_RSI'. This class does not exist or contains Python code errors.
+2020-06-20 00:40:50,259 - freqtrade.commands.trade_commands - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 19, in start_trading
+    worker = Worker(args)
+  File "/freqtrade/freqtrade/worker.py", line 34, in __init__
+    self._init(False)
+  File "/freqtrade/freqtrade/worker.py", line 51, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+  File "/freqtrade/freqtrade/freqtradebot.py", line 63, in __init__
+    self.strategy: IStrategy = StrategyResolver.load_strategy(self.config)
+  File "/freqtrade/freqtrade/resolvers/strategy_resolver.py", line 45, in load_strategy
+    strategy: IStrategy = StrategyResolver._load_strategy(
+  File "/freqtrade/freqtrade/resolvers/strategy_resolver.py", line 177, in _load_strategy
+    raise OperationalException(
+freqtrade.exceptions.OperationalException: Impossible to load Strategy 'BB_RSI'. This class does not exist or contains Python code errors.
+2020-06-20 00:41:51,846 - freqtrade.loggers - INFO - Verbosity set to 0
+2020-06-20 00:41:51,849 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2020-06-20 00:41:51,851 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2020-06-20 00:41:51,852 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2020-06-20 00:41:51,853 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2020-06-20 00:41:51,854 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 15 ...
+2020-06-20 00:41:51,862 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2020-06-20 00:41:51,864 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2020-06-20 00:41:51,865 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2020-06-20 00:41:51,866 - freqtrade.configuration.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2020-06-20 00:41:51,867 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2020-06-20 00:41:51,868 - freqtrade.freqtradebot - INFO - Starting freqtrade 2020.5
+2020-06-20 00:41:51,892 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy BB_RSI from '/freqtrade/user_data/strategies/BB_RSI.py'...
+2020-06-20 00:41:51,893 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'ticker_interval' with value in config file: 1h.
+2020-06-20 00:41:51,893 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'trailing_stop' with value in config file: True.
+2020-06-20 00:41:51,894 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2020-06-20 00:41:51,895 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2020-06-20 00:41:51,896 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'buy': 10, 'sell': 30}.
+2020-06-20 00:41:51,897 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'use_sell_signal' with value in config file: True.
+2020-06-20 00:41:51,898 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'sell_profit_only' with value in config file: False.
+2020-06-20 00:41:51,900 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'ignore_roi_if_buy_signal' with value in config file: False.
+2020-06-20 00:41:51,900 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.4, '335': 0.18834, '564': 0.07349, '1097': 0}
+2020-06-20 00:41:51,901 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ticker_interval: 1h
+2020-06-20 00:41:51,902 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.06491
+2020-06-20 00:41:51,903 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: True
+2020-06-20 00:41:51,903 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive: 0.01036
+2020-06-20 00:41:51,904 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.02409
+2020-06-20 00:41:51,905 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2020-06-20 00:41:51,906 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: False
+2020-06-20 00:41:51,907 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'buy': 'limit', 'sell': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2020-06-20 00:41:51,907 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'buy': 'gtc', 'sell': 'gtc'}
+2020-06-20 00:41:51,908 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2020-06-20 00:41:51,909 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2020-06-20 00:41:51,910 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2020-06-20 00:41:51,910 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'buy': 10, 'sell': 30}
+2020-06-20 00:41:51,912 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_sell_signal: True
+2020-06-20 00:41:51,912 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_only: False
+2020-06-20 00:41:51,913 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_buy_signal: False
+2020-06-20 00:41:51,914 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2020-06-20 00:41:51,917 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2020-06-20 00:41:51,918 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True}
+2020-06-20 00:41:51,924 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': False, 'rateLimit': 500}
+2020-06-20 00:41:51,930 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2020-06-20 00:41:54,656 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2020-06-20 00:41:54,747 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:41:54,750 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/pairlist/StaticPairList.py'...
+2020-06-20 00:41:54,752 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist PrecisionFilter from '/freqtrade/freqtrade/pairlist/PrecisionFilter.py'...
+2020-06-20 00:41:54,756 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist PriceFilter from '/freqtrade/freqtrade/pairlist/PriceFilter.py'...
+2020-06-20 00:41:56,481 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:41:56,483 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:41:56,485 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:41:56,486 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:41:56,487 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:41:56,488 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:41:56,489 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:41:56,490 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:41:56,491 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:41:56,492 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:41:56,493 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:41:56,495 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.telegram ...
+2020-06-20 00:41:57,551 - freqtrade.rpc.telegram - INFO - rpc.telegram is listening for following commands: [['status'], ['profit'], ['balance'], ['start'], ['stop'], ['forcesell'], ['forcebuy'], ['performance'], ['daily'], ['count'], ['reload_conf'], ['show_config'], ['stopbuy'], ['whitelist'], ['blacklist'], ['edge'], ['help'], ['version']]
+2020-06-20 00:41:57,909 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2020-06-20 00:41:58,572 - freqtrade.worker - INFO - Changing state to: RUNNING
+2020-06-20 00:41:58,573 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2020-06-20 00:41:58,807 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': custom, 'status': "*Exchange:* `binance`\n*Stake per trade:* `unlimited USDT`\n*Minimum ROI:* `{'0': 0.4, '335': 0.18834, '564': 0.07349, '1097': 0}`\n*Trailing Stoploss:* `-0.06491`\n*Ticker Interval:* `1h`\n*Strategy:* `BB_RSI`"}
+2020-06-20 00:41:59,046 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': "Searching for USDT pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}, {'PrecisionFilter': 'PrecisionFilter - Filtering untradable pairs.'}, {'PriceFilter': 'PriceFilter - Filtering pairs priced below 1.0%.'}]"}
+2020-06-20 00:41:59,294 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:41:59,295 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:41:59,296 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:41:59,297 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:41:59,298 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:41:59,298 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:41:59,299 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:41:59,300 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:41:59,301 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:41:59,302 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:41:59,303 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:42:03,409 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2020-06-20 00:42:03,423 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/telegram/ext/updater.py", line 380, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.8/site-packages/telegram/ext/updater.py", line 338, in polling_action_cb
+    updates = self.bot.get_updates(self.last_update_id,
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/usr/local/lib/python3.8/site-packages/telegram/bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/telegram/bot.py", line 2136, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/usr/local/lib/python3.8/site-packages/telegram/utils/request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "/usr/local/lib/python3.8/site-packages/telegram/utils/request.py", line 249, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2020-06-20 00:42:04,688 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:42:04,714 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 495.0 ...
+2020-06-20 00:42:04,715 - freqtrade.freqtradebot - INFO - Executing Buy for BNB/USDT
+2020-06-20 00:42:04,716 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2020-06-20 00:42:05,038 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:42:05,039 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': buy, 'exchange': 'Binance', 'pair': 'BNB/USDT', 'limit': 15.9604, 'order_type': 'limit', 'stake_amount': 495.0, 'stake_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 31.014260294228215, 'open_date': datetime.datetime(2020, 6, 20, 0, 42, 4, 996396), 'current_rate': 15.9604}
+2020-06-20 00:42:05,412 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:42:05,432 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 495.0 ...
+2020-06-20 00:42:05,434 - freqtrade.freqtradebot - INFO - Executing Buy for XRP/USDT
+2020-06-20 00:42:05,435 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2020-06-20 00:42:05,752 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:42:05,754 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': buy, 'exchange': 'Binance', 'pair': 'XRP/USDT', 'limit': 0.18695, 'order_type': 'limit', 'stake_amount': 495.0, 'stake_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 2647.7667825621825, 'open_date': datetime.datetime(2020, 6, 20, 0, 42, 5, 713442), 'current_rate': 0.18695}
+2020-06-20 00:42:06,070 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:42:06,089 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 495.0 ...
+2020-06-20 00:42:06,090 - freqtrade.freqtradebot - INFO - Executing Buy for LTC/USDT
+2020-06-20 00:42:06,091 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2020-06-20 00:42:06,424 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:42:06,425 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': buy, 'exchange': 'Binance', 'pair': 'LTC/USDT', 'limit': 42.88, 'order_type': 'limit', 'stake_amount': 495.0, 'stake_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 11.543843283582088, 'open_date': datetime.datetime(2020, 6, 20, 0, 42, 6, 375951), 'current_rate': 42.88}
+2020-06-20 00:42:06,704 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:42:06,725 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 495.0 ...
+2020-06-20 00:42:06,726 - freqtrade.freqtradebot - INFO - Executing Buy for XTZ/USDT
+2020-06-20 00:42:06,727 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2020-06-20 00:42:07,062 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:42:07,063 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': buy, 'exchange': 'Binance', 'pair': 'XTZ/USDT', 'limit': 2.6266, 'order_type': 'limit', 'stake_amount': 495.0, 'stake_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 188.45655981116272, 'open_date': datetime.datetime(2020, 6, 20, 0, 42, 7, 4381), 'current_rate': 2.6266}
+2020-06-20 00:42:07,396 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:42:07,424 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 495.0 ...
+2020-06-20 00:42:07,425 - freqtrade.freqtradebot - INFO - Executing Buy for DASH/USDT
+2020-06-20 00:42:07,426 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2020-06-20 00:42:07,755 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:42:07,756 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': buy, 'exchange': 'Binance', 'pair': 'DASH/USDT', 'limit': 70.23, 'order_type': 'limit', 'stake_amount': 495.0, 'stake_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 7.048269970098248, 'open_date': datetime.datetime(2020, 6, 20, 0, 42, 7, 716416), 'current_rate': 70.23}
+2020-06-20 00:42:08,034 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:42:08,055 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 495.0 ...
+2020-06-20 00:42:08,056 - freqtrade.freqtradebot - INFO - Executing Buy for TRX/USDT
+2020-06-20 00:42:08,057 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2020-06-20 00:42:08,374 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:42:08,375 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': buy, 'exchange': 'Binance', 'pair': 'TRX/USDT', 'limit': 0.01584, 'order_type': 'limit', 'stake_amount': 495.0, 'stake_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 31250.0, 'open_date': datetime.datetime(2020, 6, 20, 0, 42, 8, 337603), 'current_rate': 0.01584}
+2020-06-20 00:42:08,683 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:42:08,707 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 495.0 ...
+2020-06-20 00:42:08,708 - freqtrade.freqtradebot - INFO - Executing Buy for XMR/USDT
+2020-06-20 00:42:08,709 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2020-06-20 00:42:09,024 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:42:09,026 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': buy, 'exchange': 'Binance', 'pair': 'XMR/USDT', 'limit': 64.1, 'order_type': 'limit', 'stake_amount': 495.0, 'stake_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 7.722308892355695, 'open_date': datetime.datetime(2020, 6, 20, 0, 42, 8, 988197), 'current_rate': 64.1}
+2020-06-20 00:42:09,362 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:42:09,363 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2020-06-20 00:42:09,365 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/telegram/ext/updater.py", line 380, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.8/site-packages/telegram/ext/updater.py", line 338, in polling_action_cb
+    updates = self.bot.get_updates(self.last_update_id,
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/usr/local/lib/python3.8/site-packages/telegram/bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/telegram/bot.py", line 2136, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/usr/local/lib/python3.8/site-packages/telegram/utils/request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "/usr/local/lib/python3.8/site-packages/telegram/utils/request.py", line 249, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2020-06-20 00:42:09,383 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 495.0 ...
+2020-06-20 00:42:09,384 - freqtrade.freqtradebot - INFO - Executing Buy for VET/USDT
+2020-06-20 00:42:09,385 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2020-06-20 00:42:09,699 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:42:09,700 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': buy, 'exchange': 'Binance', 'pair': 'VET/USDT', 'limit': 0.008408, 'order_type': 'limit', 'stake_amount': 495.0, 'stake_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 58872.502378686964, 'open_date': datetime.datetime(2020, 6, 20, 0, 42, 9, 662322), 'current_rate': 0.008408}
+2020-06-20 00:42:10,056 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:42:10,080 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 495.0 ...
+2020-06-20 00:42:10,081 - freqtrade.freqtradebot - INFO - Executing Buy for ATOM/USDT
+2020-06-20 00:42:10,082 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2020-06-20 00:42:11,049 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:42:11,051 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': buy, 'exchange': 'Binance', 'pair': 'ATOM/USDT', 'limit': 2.605, 'order_type': 'limit', 'stake_amount': 495.0, 'stake_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 190.01919385796546, 'open_date': datetime.datetime(2020, 6, 20, 0, 42, 10, 915778), 'current_rate': 2.605}
+2020-06-20 00:42:11,576 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:42:11,641 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 495.0 ...
+2020-06-20 00:42:11,644 - freqtrade.freqtradebot - INFO - Executing Buy for FTT/USDT
+2020-06-20 00:42:11,646 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2020-06-20 00:42:12,014 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:42:12,017 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': buy, 'exchange': 'Binance', 'pair': 'FTT/USDT', 'limit': 2.974, 'order_type': 'limit', 'stake_amount': 495.0, 'stake_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 166.4425016812374, 'open_date': datetime.datetime(2020, 6, 20, 0, 42, 11, 944360), 'current_rate': 2.974}
+2020-06-20 00:42:12,412 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:42:12,444 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 495.0 ...
+2020-06-20 00:42:12,446 - freqtrade.freqtradebot - INFO - Executing Buy for ALGO/USDT
+2020-06-20 00:42:12,449 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2020-06-20 00:42:13,154 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:42:13,156 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': buy, 'exchange': 'Binance', 'pair': 'ALGO/USDT', 'limit': 0.2322, 'order_type': 'limit', 'stake_amount': 495.0, 'stake_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 2131.782945736434, 'open_date': datetime.datetime(2020, 6, 20, 0, 42, 13, 15693), 'current_rate': 0.2322}
+2020-06-20 00:42:13,440 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:42:13,463 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 495.0 ...
+2020-06-20 00:42:13,464 - freqtrade.freqtradebot - INFO - Executing Buy for BTT/USDT
+2020-06-20 00:42:13,465 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2020-06-20 00:42:14,077 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:42:14,078 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': buy, 'exchange': 'Binance', 'pair': 'BTT/USDT', 'limit': 0.0002964, 'order_type': 'limit', 'stake_amount': 495.0, 'stake_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 1670040.4858299596, 'open_date': datetime.datetime(2020, 6, 20, 0, 42, 14, 27880), 'current_rate': 0.0002964}
+2020-06-20 00:42:14,357 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:42:14,379 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 495.0 ...
+2020-06-20 00:42:14,380 - freqtrade.freqtradebot - INFO - Executing Buy for IOTA/USDT
+2020-06-20 00:42:14,381 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2020-06-20 00:42:14,689 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:42:14,690 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': buy, 'exchange': 'Binance', 'pair': 'IOTA/USDT', 'limit': 0.2192, 'order_type': 'limit', 'stake_amount': 495.0, 'stake_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 2258.211678832117, 'open_date': datetime.datetime(2020, 6, 20, 0, 42, 14, 657479), 'current_rate': 0.2192}
+2020-06-20 00:42:15,008 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:42:15,027 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 495.0 ...
+2020-06-20 00:42:15,028 - freqtrade.freqtradebot - INFO - Executing Buy for RVN/USDT
+2020-06-20 00:42:15,029 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2020-06-20 00:42:15,640 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:42:15,641 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': buy, 'exchange': 'Binance', 'pair': 'RVN/USDT', 'limit': 0.02109, 'order_type': 'limit', 'stake_amount': 495.0, 'stake_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 23470.839260312943, 'open_date': datetime.datetime(2020, 6, 20, 0, 42, 15, 602508), 'current_rate': 0.02109}
+2020-06-20 00:42:15,944 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:42:15,965 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 495.0 ...
+2020-06-20 00:42:15,966 - freqtrade.freqtradebot - INFO - Executing Buy for WAVES/USDT
+2020-06-20 00:42:15,967 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2020-06-20 00:42:16,532 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2020-06-20 00:42:16,536 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/telegram/ext/updater.py", line 380, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.8/site-packages/telegram/ext/updater.py", line 338, in polling_action_cb
+    updates = self.bot.get_updates(self.last_update_id,
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/usr/local/lib/python3.8/site-packages/telegram/bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/telegram/bot.py", line 2136, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/usr/local/lib/python3.8/site-packages/telegram/utils/request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "/usr/local/lib/python3.8/site-packages/telegram/utils/request.py", line 249, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2020-06-20 00:42:16,944 - freqtrade.wallets - INFO - Wallets synced.
+2020-06-20 00:42:16,945 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': buy, 'exchange': 'Binance', 'pair': 'WAVES/USDT', 'limit': 1.2124, 'order_type': 'limit', 'stake_amount': 495.0, 'stake_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 408.28109534807, 'open_date': datetime.datetime(2020, 6, 20, 0, 42, 16, 906853), 'current_rate': 1.2124}
+2020-06-20 00:42:17,640 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2020.5', state='RUNNING'
+2020-06-20 00:42:17,650 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:42:17,651 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:42:17,652 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:42:17,654 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:42:17,655 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:42:17,656 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:42:17,658 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:42:17,659 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:42:17,659 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:42:17,660 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:42:17,661 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:42:17,681 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BNB/USDT, amount=31.01426029, open_rate=15.96040000, open_since=2020-06-20 00:42:04)
+2020-06-20 00:42:17,682 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=1, pair=BNB/USDT, amount=31.01426029, open_rate=15.96040000, open_since=2020-06-20 00:42:04) [buy]: 0.494932 USDT - rate: 0.001
+2020-06-20 00:42:17,683 - freqtrade.persistence - INFO - Updating trade (id=1) ...
+2020-06-20 00:42:17,684 - freqtrade.persistence - INFO - LIMIT_BUY has been fulfilled for Trade(id=1, pair=BNB/USDT, amount=31.01000000, open_rate=15.96040000, open_since=2020-06-20 00:42:04).
+2020-06-20 00:42:17,712 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=XRP/USDT, amount=2647.76678256, open_rate=0.18695000, open_since=2020-06-20 00:42:05)
+2020-06-20 00:42:17,713 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=2, pair=XRP/USDT, amount=2647.76678256, open_rate=0.18695000, open_since=2020-06-20 00:42:05) [buy]: 0.49498751 USDT - rate: 0.001
+2020-06-20 00:42:17,714 - freqtrade.persistence - INFO - Updating trade (id=2) ...
+2020-06-20 00:42:17,715 - freqtrade.persistence - INFO - LIMIT_BUY has been fulfilled for Trade(id=2, pair=XRP/USDT, amount=2647.70000000, open_rate=0.18695000, open_since=2020-06-20 00:42:05).
+2020-06-20 00:42:17,743 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=3, pair=LTC/USDT, amount=11.54384328, open_rate=42.88000000, open_since=2020-06-20 00:42:06)
+2020-06-20 00:42:17,744 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=3, pair=LTC/USDT, amount=11.54384328, open_rate=42.88000000, open_since=2020-06-20 00:42:06) [buy]: 0.49499986 USDT - rate: 0.001
+2020-06-20 00:42:17,745 - freqtrade.persistence - INFO - Updating trade (id=3) ...
+2020-06-20 00:42:17,746 - freqtrade.persistence - INFO - LIMIT_BUY has been fulfilled for Trade(id=3, pair=LTC/USDT, amount=11.54384000, open_rate=42.88000000, open_since=2020-06-20 00:42:06).
+2020-06-20 00:42:17,772 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=4, pair=XTZ/USDT, amount=188.45655981, open_rate=2.62660000, open_since=2020-06-20 00:42:07)
+2020-06-20 00:42:17,773 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=4, pair=XTZ/USDT, amount=188.45655981, open_rate=2.62660000, open_since=2020-06-20 00:42:07) [buy]: 0.49498277 USDT - rate: 0.001
+2020-06-20 00:42:17,774 - freqtrade.persistence - INFO - Updating trade (id=4) ...
+2020-06-20 00:42:17,775 - freqtrade.persistence - INFO - LIMIT_BUY has been fulfilled for Trade(id=4, pair=XTZ/USDT, amount=188.45000000, open_rate=2.62660000, open_since=2020-06-20 00:42:07).
+2020-06-20 00:42:17,801 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=5, pair=DASH/USDT, amount=7.04826997, open_rate=70.23000000, open_since=2020-06-20 00:42:07)
+2020-06-20 00:42:17,803 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=5, pair=DASH/USDT, amount=7.04826997, open_rate=70.23000000, open_since=2020-06-20 00:42:07) [buy]: 0.4949993 USDT - rate: 0.001
+2020-06-20 00:42:17,803 - freqtrade.persistence - INFO - Updating trade (id=5) ...
+2020-06-20 00:42:17,804 - freqtrade.persistence - INFO - LIMIT_BUY has been fulfilled for Trade(id=5, pair=DASH/USDT, amount=7.04826000, open_rate=70.23000000, open_since=2020-06-20 00:42:07).
+2020-06-20 00:42:17,832 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=6, pair=TRX/USDT, amount=31250.00000000, open_rate=0.01584000, open_since=2020-06-20 00:42:08)
+2020-06-20 00:42:17,833 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=6, pair=TRX/USDT, amount=31250.00000000, open_rate=0.01584000, open_since=2020-06-20 00:42:08) [buy]: 0.495 USDT - rate: 0.001
+2020-06-20 00:42:17,834 - freqtrade.persistence - INFO - Updating trade (id=6) ...
+2020-06-20 00:42:17,835 - freqtrade.persistence - INFO - LIMIT_BUY has been fulfilled for Trade(id=6, pair=TRX/USDT, amount=31250.00000000, open_rate=0.01584000, open_since=2020-06-20 00:42:08).
+2020-06-20 00:42:17,863 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=7, pair=XMR/USDT, amount=7.72230889, open_rate=64.10000000, open_since=2020-06-20 00:42:08)
+2020-06-20 00:42:17,864 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=7, pair=XMR/USDT, amount=7.72230889, open_rate=64.10000000, open_since=2020-06-20 00:42:08) [buy]: 0.49499943 USDT - rate: 0.001
+2020-06-20 00:42:17,865 - freqtrade.persistence - INFO - Updating trade (id=7) ...
+2020-06-20 00:42:17,866 - freqtrade.persistence - INFO - LIMIT_BUY has been fulfilled for Trade(id=7, pair=XMR/USDT, amount=7.72230000, open_rate=64.10000000, open_since=2020-06-20 00:42:08).
+2020-06-20 00:42:17,894 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=8, pair=VET/USDT, amount=58872.50237869, open_rate=0.00840800, open_since=2020-06-20 00:42:09)
+2020-06-20 00:42:17,895 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=8, pair=VET/USDT, amount=58872.50237869, open_rate=0.00840800, open_since=2020-06-20 00:42:09) [buy]: 0.495 USDT - rate: 0.001
+2020-06-20 00:42:17,896 - freqtrade.persistence - INFO - Updating trade (id=8) ...
+2020-06-20 00:42:17,897 - freqtrade.persistence - INFO - LIMIT_BUY has been fulfilled for Trade(id=8, pair=VET/USDT, amount=58872.50237869, open_rate=0.00840800, open_since=2020-06-20 00:42:09).
+2020-06-20 00:42:17,926 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=9, pair=ATOM/USDT, amount=190.01919386, open_rate=2.60500000, open_since=2020-06-20 00:42:10)
+2020-06-20 00:42:17,927 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=9, pair=ATOM/USDT, amount=190.01919386, open_rate=2.60500000, open_since=2020-06-20 00:42:10) [buy]: 0.4949995 USDT - rate: 0.001
+2020-06-20 00:42:17,928 - freqtrade.persistence - INFO - Updating trade (id=9) ...
+2020-06-20 00:42:17,929 - freqtrade.persistence - INFO - LIMIT_BUY has been fulfilled for Trade(id=9, pair=ATOM/USDT, amount=190.01900000, open_rate=2.60500000, open_since=2020-06-20 00:42:10).
+2020-06-20 00:42:17,958 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=10, pair=FTT/USDT, amount=166.44250168, open_rate=2.97400000, open_since=2020-06-20 00:42:11)
+2020-06-20 00:42:17,959 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=10, pair=FTT/USDT, amount=166.44250168, open_rate=2.97400000, open_since=2020-06-20 00:42:11) [buy]: 0.49499851 USDT - rate: 0.001
+2020-06-20 00:42:17,960 - freqtrade.persistence - INFO - Updating trade (id=10) ...
+2020-06-20 00:42:17,961 - freqtrade.persistence - INFO - LIMIT_BUY has been fulfilled for Trade(id=10, pair=FTT/USDT, amount=166.44200000, open_rate=2.97400000, open_since=2020-06-20 00:42:11).
+2020-06-20 00:42:17,988 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=11, pair=ALGO/USDT, amount=2131.78294574, open_rate=0.23220000, open_since=2020-06-20 00:42:13)
+2020-06-20 00:42:17,989 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=11, pair=ALGO/USDT, amount=2131.78294574, open_rate=0.23220000, open_since=2020-06-20 00:42:13) [buy]: 0.49499932 USDT - rate: 0.001
+2020-06-20 00:42:17,990 - freqtrade.persistence - INFO - Updating trade (id=11) ...
+2020-06-20 00:42:17,990 - freqtrade.persistence - INFO - LIMIT_BUY has been fulfilled for Trade(id=11, pair=ALGO/USDT, amount=2131.78000000, open_rate=0.23220000, open_since=2020-06-20 00:42:13).
+2020-06-20 00:42:18,018 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=12, pair=BTT/USDT, amount=1670040.48582996, open_rate=0.00029640, open_since=2020-06-20 00:42:14)
+2020-06-20 00:42:18,019 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=12, pair=BTT/USDT, amount=1670040.48582996, open_rate=0.00029640, open_since=2020-06-20 00:42:14) [buy]: 0.495 USDT - rate: 0.001
+2020-06-20 00:42:18,020 - freqtrade.persistence - INFO - Updating trade (id=12) ...
+2020-06-20 00:42:18,020 - freqtrade.persistence - INFO - LIMIT_BUY has been fulfilled for Trade(id=12, pair=BTT/USDT, amount=1670040.48582996, open_rate=0.00029640, open_since=2020-06-20 00:42:14).
+2020-06-20 00:42:18,047 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=13, pair=IOTA/USDT, amount=2258.21167883, open_rate=0.21920000, open_since=2020-06-20 00:42:14)
+2020-06-20 00:42:18,048 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=13, pair=IOTA/USDT, amount=2258.21167883, open_rate=0.21920000, open_since=2020-06-20 00:42:14) [buy]: 0.49499963 USDT - rate: 0.001
+2020-06-20 00:42:18,049 - freqtrade.persistence - INFO - Updating trade (id=13) ...
+2020-06-20 00:42:18,050 - freqtrade.persistence - INFO - LIMIT_BUY has been fulfilled for Trade(id=13, pair=IOTA/USDT, amount=2258.21000000, open_rate=0.21920000, open_since=2020-06-20 00:42:14).
+2020-06-20 00:42:18,077 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=14, pair=RVN/USDT, amount=23470.83926031, open_rate=0.02109000, open_since=2020-06-20 00:42:15)
+2020-06-20 00:42:18,078 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=14, pair=RVN/USDT, amount=23470.83926031, open_rate=0.02109000, open_since=2020-06-20 00:42:15) [buy]: 0.49499917 USDT - rate: 0.001
+2020-06-20 00:42:18,079 - freqtrade.persistence - INFO - Updating trade (id=14) ...
+2020-06-20 00:42:18,080 - freqtrade.persistence - INFO - LIMIT_BUY has been fulfilled for Trade(id=14, pair=RVN/USDT, amount=23470.80000000, open_rate=0.02109000, open_since=2020-06-20 00:42:15).
+2020-06-20 00:42:18,105 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=15, pair=WAVES/USDT, amount=408.28109535, open_rate=1.21240000, open_since=2020-06-20 00:42:16)
+2020-06-20 00:42:18,107 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=15, pair=WAVES/USDT, amount=408.28109535, open_rate=1.21240000, open_since=2020-06-20 00:42:16) [buy]: 0.49499867 USDT - rate: 0.001
+2020-06-20 00:42:18,107 - freqtrade.persistence - INFO - Updating trade (id=15) ...
+2020-06-20 00:42:18,108 - freqtrade.persistence - INFO - LIMIT_BUY has been fulfilled for Trade(id=15, pair=WAVES/USDT, amount=408.28000000, open_rate=1.21240000, open_since=2020-06-20 00:42:16).
+2020-06-20 00:42:25,828 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:42:25,829 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:42:25,830 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:42:25,831 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:42:25,832 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:42:25,833 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:42:25,834 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:42:25,834 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:42:25,835 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:42:25,836 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:42:25,837 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:42:33,885 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:42:33,887 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:42:33,888 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:42:33,889 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:42:33,890 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:42:33,893 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:42:33,895 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:42:33,898 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:42:33,899 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:42:33,901 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:42:33,904 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:42:41,613 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:42:41,614 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:42:41,615 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:42:41,616 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:42:41,617 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:42:41,618 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:42:41,619 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:42:41,620 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:42:41,621 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:42:41,621 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:42:41,622 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:42:49,456 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:42:49,457 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:42:49,458 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:42:49,459 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:42:49,460 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:42:49,461 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:42:49,463 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:42:49,464 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:42:49,465 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:42:49,466 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:42:49,467 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:42:56,910 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:42:56,911 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:42:56,912 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:42:56,913 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:42:56,915 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:42:56,917 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:42:56,919 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:42:56,920 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:42:56,921 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:42:56,922 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:42:56,923 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:43:04,419 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:04,421 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:04,422 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:04,423 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:04,424 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:04,426 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:04,428 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:04,429 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:04,430 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:04,431 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:04,432 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:43:12,029 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:12,031 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:12,032 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:12,033 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:12,034 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:12,035 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:12,036 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:12,037 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:12,041 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:12,042 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:12,044 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:43:20,047 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2020.5', state='RUNNING'
+2020-06-20 00:43:20,057 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:20,059 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:20,060 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:20,061 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:20,061 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:20,062 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:20,063 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:20,064 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:20,065 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:20,066 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:20,066 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:43:27,714 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:27,716 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:27,717 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:27,718 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:27,719 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:27,720 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:27,721 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:27,721 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:27,723 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:27,724 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:27,725 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:43:35,381 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:35,382 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:35,383 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:35,385 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:35,386 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:35,387 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:35,388 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:35,389 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:35,390 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:35,390 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:35,392 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:43:42,923 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:42,924 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:42,925 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:42,926 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:42,927 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:42,928 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:42,929 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:42,930 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:42,931 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:42,932 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:42,933 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:43:50,916 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:50,918 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:50,919 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:50,921 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:50,922 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:50,924 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:50,925 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:50,926 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:50,928 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:50,929 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:50,930 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:43:58,418 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:58,420 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:58,421 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:58,424 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:58,425 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:58,426 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:58,427 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:58,429 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:58,430 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:43:58,432 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:43:58,434 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:44:06,029 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:06,031 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:06,032 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:06,033 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:06,035 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:06,037 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:06,038 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:06,039 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:06,039 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:06,040 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:06,041 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:44:14,780 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:14,781 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:14,782 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:14,783 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:14,783 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:14,785 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:14,786 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:14,787 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:14,789 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:14,790 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:14,791 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:44:22,452 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2020.5', state='RUNNING'
+2020-06-20 00:44:22,466 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:22,468 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:22,469 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:22,470 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:22,472 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:22,473 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:22,475 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:22,476 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:22,477 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:22,478 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:22,479 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:44:30,034 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:30,035 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:30,036 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:30,037 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:30,038 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:30,039 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:30,040 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:30,041 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:30,042 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:30,043 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:30,044 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:44:37,957 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:37,958 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:37,959 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:37,960 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:37,961 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:37,962 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:37,963 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:37,964 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:37,965 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:37,966 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:37,967 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:44:46,816 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:46,817 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:46,818 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:46,819 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:46,820 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:46,821 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:46,822 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:46,823 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:46,823 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:46,824 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:46,825 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:44:54,860 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:54,862 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:54,864 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:54,865 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:54,866 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:54,867 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:54,869 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:54,870 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:54,871 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:44:54,872 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:44:54,873 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:45:02,348 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:02,349 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:02,351 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:02,352 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:02,353 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:02,354 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:02,354 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:02,355 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:02,356 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:02,357 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:02,358 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:45:10,361 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:10,362 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:10,363 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:10,364 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:10,365 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:10,365 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:10,366 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:10,367 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:10,368 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:10,369 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:10,370 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:45:18,157 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:18,158 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:18,158 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:18,159 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:18,160 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:18,162 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:18,163 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:18,164 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:18,165 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:18,166 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:18,167 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:45:26,171 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2020.5', state='RUNNING'
+2020-06-20 00:45:26,183 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:26,185 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:26,186 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:26,187 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:26,188 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:26,189 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:26,190 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:26,191 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:26,192 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:26,193 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:26,194 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:45:33,874 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:33,876 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:33,878 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:33,879 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:33,880 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:33,881 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:33,882 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:33,883 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:33,884 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:33,885 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:33,886 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:45:41,901 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:41,903 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:41,903 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:41,904 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:41,905 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:41,906 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:41,907 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:41,908 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:41,909 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:41,910 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:41,911 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:45:49,499 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:49,500 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:49,501 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:49,501 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:49,502 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:49,503 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:49,504 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:49,504 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:49,505 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:49,507 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:49,508 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:45:57,086 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:57,087 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:57,088 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:57,089 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:57,091 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:57,091 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:57,092 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:57,094 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:57,095 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:45:57,097 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:45:57,099 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:46:06,383 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:06,384 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:06,385 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:06,386 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:06,387 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:06,388 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:06,388 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:06,389 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:06,390 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:06,391 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:06,392 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:46:14,159 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:14,160 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:14,161 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:14,162 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:14,163 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:14,164 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:14,165 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:14,165 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:14,166 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:14,167 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:14,168 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:46:21,802 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:21,803 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:21,804 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:21,805 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:21,806 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:21,807 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:21,808 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:21,809 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:21,811 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:21,813 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:21,814 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:46:29,491 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2020.5', state='RUNNING'
+2020-06-20 00:46:29,502 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:29,503 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:29,504 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:29,506 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:29,507 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:29,508 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:29,509 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:29,510 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:29,510 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:29,511 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:29,512 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:46:37,014 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:37,015 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:37,016 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:37,017 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:37,018 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:37,019 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:37,019 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:37,020 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:37,021 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:37,022 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:37,023 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:46:45,013 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:45,014 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:45,015 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:45,016 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:45,017 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:45,018 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:45,019 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:45,020 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:45,020 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:45,022 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:45,024 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:46:52,618 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:52,620 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:52,621 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:52,622 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:52,623 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:52,624 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:52,625 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:52,626 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:52,627 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:46:52,627 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:46:52,628 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:47:00,354 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:00,355 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:00,356 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:00,357 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:00,358 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:00,358 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:00,359 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:00,360 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:00,361 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:00,361 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:00,362 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:47:08,071 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:08,072 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:08,073 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:08,074 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:08,075 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:08,077 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:08,078 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:08,079 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:08,080 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:08,081 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:08,081 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:47:16,006 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:16,007 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:16,008 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:16,009 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:16,009 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:16,010 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:16,011 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:16,011 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:16,012 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:16,013 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:16,014 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:47:23,840 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:23,841 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:23,841 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:23,842 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:23,843 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:23,843 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:23,844 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:23,845 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:23,846 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:23,846 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:23,847 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:47:31,312 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2020.5', state='RUNNING'
+2020-06-20 00:47:31,322 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:31,323 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:31,324 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:31,325 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:31,326 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:31,326 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:31,327 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:31,329 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:31,330 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:31,331 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:31,332 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:47:38,935 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:38,938 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:38,939 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:38,940 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:38,941 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:38,943 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:38,944 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:38,945 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:38,947 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:38,948 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:38,950 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:47:46,654 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:46,656 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:46,657 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:46,658 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:46,660 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:46,662 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:46,664 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:46,666 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:46,669 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:46,671 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:46,673 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:47:54,716 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:54,718 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:54,720 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:54,721 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:54,722 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:54,723 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:54,724 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:54,725 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:54,726 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:47:54,727 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:47:54,727 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:48:02,800 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:02,801 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:02,802 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:02,803 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:02,804 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:02,805 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:02,806 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:02,807 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:02,807 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:02,808 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:02,809 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:48:11,478 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:11,480 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:11,481 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:11,482 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:11,484 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:11,485 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:11,486 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:11,487 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:11,488 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:11,489 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:11,491 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:48:19,130 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:19,131 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:19,132 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:19,133 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:19,134 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:19,135 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:19,136 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:19,136 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:19,137 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:19,138 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:19,139 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:48:26,701 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:26,703 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:26,703 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:26,704 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:26,705 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:26,706 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:26,708 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:26,709 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:26,710 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:26,710 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:26,712 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:48:34,302 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2020.5', state='RUNNING'
+2020-06-20 00:48:34,313 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:34,314 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:34,315 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:34,316 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:34,316 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:34,317 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:34,318 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:34,319 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:34,319 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:34,320 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:34,322 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:48:41,838 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:41,839 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:41,840 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:41,841 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:41,841 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:41,842 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:41,843 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:41,844 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:41,844 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:41,845 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:41,846 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:48:49,770 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:49,771 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:49,772 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:49,772 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:49,773 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:49,775 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:49,776 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:49,777 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:49,778 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:49,779 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:49,780 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:48:57,666 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:57,667 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:57,668 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:57,669 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:57,670 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:57,671 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:57,672 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:57,673 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:57,674 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:48:57,675 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:48:57,676 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:49:05,749 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:05,750 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:05,751 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:05,752 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:05,753 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:05,754 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:05,755 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:05,756 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:05,757 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:05,757 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:05,758 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:49:13,459 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:13,460 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:13,461 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:13,461 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:13,462 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:13,463 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:13,464 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:13,465 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:13,467 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:13,468 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:13,469 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:49:21,175 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:21,177 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:21,179 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:21,180 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:21,181 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:21,182 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:21,183 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:21,184 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:21,185 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:21,186 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:21,187 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:49:28,733 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:28,735 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:28,736 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:28,737 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:28,738 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:28,739 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:28,740 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:28,741 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:28,742 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:28,742 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:28,743 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:49:36,335 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2020.5', state='RUNNING'
+2020-06-20 00:49:36,345 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:36,346 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:36,347 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:36,349 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:36,351 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:36,352 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:36,353 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:36,353 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:36,354 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:36,355 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:36,356 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:49:44,873 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:44,875 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:44,877 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:44,878 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:44,879 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:44,880 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:44,881 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:44,882 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:44,884 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:44,885 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:44,886 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:49:52,709 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:52,710 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:52,711 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:52,712 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:52,712 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:52,713 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:52,714 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:52,715 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:52,716 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:49:52,717 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:49:52,718 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:50:01,227 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:01,229 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:01,230 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:01,231 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:01,232 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:01,233 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:01,234 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:01,235 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:01,236 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:01,237 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:01,238 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:50:08,648 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:08,651 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:08,653 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:08,654 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:08,655 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:08,656 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:08,657 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:08,658 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:08,659 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:08,661 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:08,662 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:50:16,220 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:16,222 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:16,224 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:16,225 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:16,227 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:16,228 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:16,229 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:16,230 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:16,231 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:16,232 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:16,233 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:50:23,908 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:23,909 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:23,911 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:23,912 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:23,913 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:23,913 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:23,914 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:23,915 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:23,916 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:23,916 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:23,917 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:50:31,901 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:31,903 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:31,904 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:31,905 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:31,906 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:31,908 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:31,909 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:31,910 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:31,911 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:31,912 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:31,913 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:50:40,134 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2020.5', state='RUNNING'
+2020-06-20 00:50:40,144 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:40,146 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:40,147 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:40,148 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:40,148 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:40,149 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:40,150 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:40,151 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:40,152 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:40,153 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:40,154 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:50:47,679 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:47,680 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:47,683 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:47,685 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:47,686 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:47,687 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:47,688 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:47,689 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:47,691 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:47,692 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:47,695 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:50:56,587 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:56,588 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:56,589 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:56,590 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:56,592 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:56,594 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:56,595 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:56,596 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:56,597 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:50:56,597 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:50:56,598 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:51:05,611 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:05,612 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:05,613 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:05,613 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:05,614 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:05,615 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:05,617 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:05,618 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:05,619 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:05,620 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:05,621 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:51:13,618 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:13,619 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:13,620 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:13,621 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:13,622 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:13,623 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:13,625 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:13,627 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:13,628 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:13,629 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:13,630 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:51:21,160 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:21,162 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:21,163 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:21,164 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:21,166 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:21,167 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:21,168 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:21,169 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:21,170 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:21,170 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:21,171 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:51:28,814 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:28,816 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:28,817 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:28,819 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:28,820 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:28,822 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:28,823 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:28,824 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:28,825 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:28,826 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:28,827 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:51:36,961 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:36,962 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:36,963 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:36,965 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:36,966 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:36,968 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:36,969 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:36,971 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:36,973 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:36,974 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:36,976 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:51:44,870 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2020.5', state='RUNNING'
+2020-06-20 00:51:44,881 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:44,882 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:44,883 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:44,884 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:44,886 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:44,887 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:44,892 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:44,894 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:44,895 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:44,896 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:44,897 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:51:52,414 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:52,415 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:52,416 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:52,417 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:52,417 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:52,418 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:52,419 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:52,420 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:52,420 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:52,421 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:52,422 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:51:59,971 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:59,972 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:59,973 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:59,974 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:59,974 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:59,975 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:59,976 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:59,978 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:59,980 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:51:59,981 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:51:59,982 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:52:07,796 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:07,798 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:07,799 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:07,799 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:07,800 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:07,801 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:07,802 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:07,803 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:07,804 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:07,806 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:07,807 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:52:15,948 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:15,948 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:15,949 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:15,950 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:15,951 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:15,952 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:15,953 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:15,954 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:15,955 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:15,955 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:15,956 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:52:23,331 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:23,332 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:23,333 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:23,334 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:23,335 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:23,336 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:23,336 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:23,337 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:23,338 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:23,339 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:23,340 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:52:31,230 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:31,231 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:31,232 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:31,233 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:31,234 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:31,235 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:31,236 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:31,237 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:31,238 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:31,239 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:31,240 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:52:39,259 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:39,260 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:39,261 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:39,262 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:39,263 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:39,263 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:39,264 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:39,265 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:39,266 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:39,267 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:39,268 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:52:46,644 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2020.5', state='RUNNING'
+2020-06-20 00:52:46,653 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:46,654 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:46,655 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:46,656 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:46,657 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:46,658 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:46,659 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:46,660 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:46,661 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:46,662 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:46,663 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:52:54,570 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:54,571 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:54,572 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:54,573 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:54,574 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:54,576 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:54,577 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:54,578 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:54,579 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:52:54,582 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:52:54,584 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:53:02,363 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:02,364 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:02,365 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:02,366 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:02,368 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:02,369 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:02,369 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:02,371 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:02,372 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:02,373 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:02,373 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:53:09,937 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:09,938 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:09,939 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:09,940 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:09,941 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:09,942 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:09,943 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:09,944 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:09,944 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:09,946 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:09,947 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:53:17,518 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:17,519 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:17,520 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:17,521 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:17,523 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:17,524 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:17,525 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:17,527 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:17,528 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:17,529 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:17,530 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:53:25,524 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:25,525 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:25,526 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:25,527 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:25,528 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:25,529 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:25,530 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:25,530 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:25,531 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:25,532 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:25,533 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:53:33,193 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:33,196 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:33,198 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:33,200 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:33,201 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:33,203 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:33,205 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:33,207 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:33,208 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:33,209 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:33,211 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:53:41,103 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:41,104 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:41,105 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:41,106 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:41,107 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:41,108 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:41,109 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:41,110 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:41,110 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:41,112 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:41,113 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:53:48,708 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2020.5', state='RUNNING'
+2020-06-20 00:53:48,719 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:48,720 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:48,722 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:48,723 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:48,725 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:48,726 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:48,727 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:48,728 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:48,730 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:48,731 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:48,733 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:53:56,245 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:56,247 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:56,249 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:56,251 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:56,252 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:56,254 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:56,255 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:56,257 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:56,258 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:53:56,260 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:53:56,261 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:54:04,200 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:04,202 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:04,203 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:04,203 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:04,205 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:04,209 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:04,210 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:04,210 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:04,211 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:04,212 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:04,213 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:54:11,994 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:11,997 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:11,998 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:11,999 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:12,000 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:12,001 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:12,002 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:12,003 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:12,004 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:12,004 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:12,005 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:54:20,043 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:20,044 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:20,045 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:20,046 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:20,046 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:20,047 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:20,048 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:20,051 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:20,052 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:20,053 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:20,054 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:54:27,797 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:27,798 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:27,799 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:27,800 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:27,801 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:27,802 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:27,802 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:27,803 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:27,804 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:27,805 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:27,806 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:54:35,390 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:35,391 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:35,392 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:35,393 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:35,394 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:35,395 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:35,396 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:35,397 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:35,397 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:35,398 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:35,399 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:54:42,999 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:43,000 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:43,001 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:43,002 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:43,003 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:43,003 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:43,004 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:43,005 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:43,006 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:43,007 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:43,008 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:54:50,532 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2020.5', state='RUNNING'
+2020-06-20 00:54:50,543 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:50,544 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:50,544 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:50,546 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:50,547 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:50,548 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:50,549 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:50,550 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:50,551 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:50,552 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:50,553 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:54:58,152 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:58,153 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:58,154 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:58,155 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:58,156 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:58,157 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:58,158 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:58,159 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:58,160 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:54:58,161 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:54:58,162 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:55:05,713 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:55:05,715 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:55:05,716 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:55:05,716 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:55:05,718 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:55:05,718 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:55:05,719 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:55:05,720 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:55:05,721 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:55:05,722 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:55:05,723 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:55:13,820 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:55:13,821 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:55:13,822 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:55:13,823 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:55:13,824 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:55:13,825 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:55:13,826 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:55:13,826 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:55:13,827 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:55:13,828 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:55:13,829 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:55:21,495 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:55:21,496 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:55:21,497 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:55:21,498 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:55:21,499 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:55:21,500 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:55:21,502 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:55:21,502 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:55:21,503 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:55:21,504 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:55:21,505 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:55:29,094 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:55:29,095 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:55:29,096 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:55:29,097 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:55:29,098 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:55:29,098 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:55:29,099 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:55:29,100 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:55:29,101 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:55:29,101 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:55:29,102 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:55:36,613 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:55:36,615 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:55:36,616 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:55:36,617 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:55:36,618 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:55:36,619 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:55:36,620 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:55:36,621 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:55:36,622 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:55:36,623 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:55:36,624 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.
+2020-06-20 00:55:44,153 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:55:44,154 - freqtrade.pairlist.IPairList - INFO - Ignoring BEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:55:44,155 - freqtrade.pairlist.IPairList - INFO - Ignoring ETHBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:55:44,156 - freqtrade.pairlist.IPairList - INFO - Ignoring BULL/USDT from whitelist. Market is not active.
+2020-06-20 00:55:44,157 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:55:44,158 - freqtrade.pairlist.IPairList - INFO - Ignoring EOSBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:55:44,159 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:55:44,159 - freqtrade.pairlist.IPairList - INFO - Ignoring BNBBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:55:44,160 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBEAR/USDT from whitelist. Market is not active.
+2020-06-20 00:55:44,161 - freqtrade.pairlist.IPairList - INFO - Ignoring XRPBULL/USDT from whitelist. Market is not active.
+2020-06-20 00:55:44,162 - freqtrade.pairlist.IPairList - INFO - Ignoring STORM/USDT from whitelist. Market is not active.

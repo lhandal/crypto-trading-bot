@@ -49,6 +49,7 @@
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
+* [Disclaimer](#disclaimer)
 * [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
@@ -85,7 +86,8 @@ to February 2020. The hyperopt yielded the following results:
 * **TRAILING STOP**: True 
 * **TICKER INTERVAL**: 1H
 
-The hyperparameter optimization took about 19 hours to complete, and all of the parameters are already set in the strategy provided.
+The hyperparameter optimization took about 19 hours to complete, and all of the parameters are already set in the strategy provided. 
+I used a daily Sharpe ratio ratio as objective for the optimization, since a profit maximization strategy was too volatile and riskier.
 It yielded in average around $1300/month with a starting capital of $7500 (in backtest). 
 Of course I expect this to have a lower monthly return when trading with real money due to slippages, volatility and liquidity of certain coins. 
 

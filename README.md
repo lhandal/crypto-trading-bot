@@ -6,6 +6,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+[![Stars][stars-shield]][stars-url]
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Python Badge]][Python Badge]
@@ -226,7 +227,7 @@ Project Link: [https://https://github.com/lhandal/crypto-trading-bot](https://ht
 [forks-shield]: https://img.shields.io/github/forks/lhandal/crypto-trading-bot.svg?style=flat-square
 [forks-url]: https://github.com/lhandal/crypto-trading-bot/network/members
 [stars-shield]: https://img.shields.io/github/stars/lhandal/crypto-trading-bot.svg?style=flat-square
-[stars-url]: https://github.com/lhandal/crypto-trading-bot/stargazers
+[stars-url]: https://github.com/lhandal/crypto-trading-bot/stars
 [license-shield]: https://img.shields.io/github/license/lhandal/crypto-trading-bot.svg?style=flat-square
 [license-url]: https://https://github.com/lhandal/crypto-trading-bot/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555

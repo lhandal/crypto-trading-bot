@@ -26,14 +26,14 @@
   <p align="center">
     Cryptocurrency bot to automate trading based on technical indicators.
     <br />
-    <a href="https://https://github.com/lhandal/crypto-trading-bot"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/lhandal/crypto-trading-bot"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://https://github.com/lhandal/crypto-trading-bot">View Demo</a>
+    <a href="https://github.com/lhandal/crypto-trading-bot">View Demo</a>
     ·
-    <a href="https://https://github.com/lhandal/crypto-trading-bot/issues">Report Bug</a>
+    <a href="https://github.com/lhandal/crypto-trading-bot/issues">Report Bug</a>
     ·
-    <a href="https://https://github.com/lhandal/crypto-trading-bot/issues">Request Feature</a>
+    <a href="https://github.com/lhandal/crypto-trading-bot/issues">Request Feature</a>
   </p>
 </p>
 
@@ -218,18 +218,18 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - Twitter: [@lhandalb](https://twitter.com/lhandalb)
 - Instagram: [@lhandal](https://instagram.com/lhandal)
 
-Project Link: [https://https://github.com/lhandal/crypto-trading-bot](https://https://github.com/lhandal/crypto-trading-bot)
+Project Link: [https://github.com/lhandal/crypto-trading-bot](https://github.com/lhandal/crypto-trading-bot)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
-[contributors-url]: https://https://github.com/lhandal/crypto-trading-bot/graphs/contributors
+[contributors-url]: https://github.com/lhandal/crypto-trading-bot/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/lhandal/crypto-trading-bot.svg?style=flat-square
 [forks-url]: https://github.com/lhandal/crypto-trading-bot/network/members
 [stars-shield]: https://img.shields.io/github/stars/lhandal/crypto-trading-bot.svg?style=flat-square
 [stars-url]: https://github.com/lhandal/crypto-trading-bot/stars
 [license-shield]: https://img.shields.io/github/license/lhandal/crypto-trading-bot.svg?style=flat-square
-[license-url]: https://https://github.com/lhandal/crypto-trading-bot/blob/master/LICENSE.txt
+[license-url]: https://github.com/lhandal/crypto-trading-bot/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/lhandal
 [product-screenshot]: images/screenshot.png
